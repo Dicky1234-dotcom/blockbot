@@ -1,0 +1,32 @@
+{
+  "name": "blockchain-ai-bot",
+  "version": "2.0.0",
+  "description": "AI-powered blockchain automation Telegram bot",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "dependencies": {
+    "telegraf": "^4.16.3",
+    "ethers": "^6.11.1",
+    "@solana/web3.js": "^1.91.8",
+    "@aptos-labs/ts-sdk": "^1.21.0",
+    "@google/generative-ai": "^0.21.0",
+    "@supabase/supabase-js": "^2.43.4",
+    "node-cron": "^3.0.3",
+    "axios": "^1.7.2",
+    "dotenv": "^16.4.5",
+    "bs58": "^5.0.0",
+    "bip39": "^3.1.0",
+    "tweetnacl": "^1.0.3",
+    "node-fetch": "^2.7.0",
+    "cross-fetch": "^4.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
