@@ -5,7 +5,7 @@ const { askAI, classifyIntent, extractSwapParamsFromText,
 const { swap, saveCustomDex } = require('../services/swapService');
 const { mint, saveNftContract, getNftContracts } = require('../services/nftService');
 const { cascadeFund, formatCascadeResults } = require('../services/fundingService');
-const { DEFAULT_CHAINS } = require('../config/chains');
+const { DEFAULT_CHAINS } = require('../../config/chains');
 const { getEVMGasPrice } = require('../services/wallet');
 const taskHandler = require('./taskHandler');
 

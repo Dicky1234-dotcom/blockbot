@@ -3,7 +3,7 @@ const db = require('./database');
 const { explainError } = require('./ai');
 const { swap } = require('./swapService');
 const { mint } = require('./nftService');
-const { DEFAULT_CHAINS } = require('../config/chains');
+const { DEFAULT_CHAINS } = require('../../config/chains');
 
 const sleep = ms => new Promise(r => setTimeout(r, ms));
 const humanDelay = () => sleep(Math.random() * 3000 + 1000);
